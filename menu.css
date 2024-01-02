@@ -1,0 +1,181 @@
+@font-face {
+    font-family: Gorga;
+    src: url(Gorga\ Grotesque\ Regular.otf);
+}
+
+body{
+    font-family: 'Gorga', Arial, sans-serif;
+    background-color: #474747;
+    margin: 0;
+    padding: 0;
+}
+/*cabeçalho*/
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #151515;
+    color: #D45101;
+    height: 60px;
+  }
+
+  .fas{
+    margin-right: 90px;
+  }
+
+  .logo-cabeçalho {
+    width: 60px;
+    margin-left: 60px;
+    cursor: pointer;
+  }
+  .conta :hover{
+    cursor: pointer;
+    color: azure;
+  }
+  .conteudo-navbar {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #D45101;
+  }
+  .conteudo-conta{
+    margin-right: 90px;
+  }
+  .search {
+    color: #151515;
+    background-color: #F07A00;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: 'Gorga', sans-serif;
+    border: none;
+    text-indent: 20px;
+    margin-right: 10px;
+  }
+  
+  .conteudo-navbar:hover {
+    cursor: pointer;
+    color: azure;
+    font-family: 'Gorga', sans-serif;
+  }
+
+::placeholder{
+  color: #151515;
+}
+
+/* Menu de Pedidos */
+
+.conteúdo-menu{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40%;
+  margin-top: 30px;
+}
+
+.icone-menu{
+  font-size: 50px;
+  margin-left: 100px;
+}
+
+.menu-tradicionais h1{
+  margin-left: 45%;
+}
+
+.tradicionais{
+  margin: 80px;
+}
+
+.card-tradicionais{
+  color: #D45101;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  background-color: #151515;
+  border-radius: 15px;
+  height: 250px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.card-imagem{
+  height: 100px;
+  width: 100px;
+  border: 1px solid #D45101;
+  border-radius: 50%;
+  margin-left: 50px;
+  background-color: #D45101;
+}
+
+.icone-tempo {
+  color: #D45101;
+  font-size: 15px;
+  margin-left: 50px;
+  margin-bottom: 3px;
+}
+
+.tempo {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0px;
+  margin-top: -3px;
+}
+
+.preço{
+  padding-left: 50px;
+  padding-bottom: -3px;
+}
+
+.card-tradicionais h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.ingredientes {
+  display: none;
+  color: #151515;
+  font-family: 'Gorga', sans-serif;
+  margin-top: -260px;
+}
+
+.ingredientes p {
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.ingredientes ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ingredientes li {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+/* Efeitos Hover */
+.card-tradicionais:hover .card-imagem {
+  opacity: 0;
+  color: #D45101;
+  transition: 500ms;
+}
+
+.card-tradicionais:hover h3 {
+  visibility: hidden;
+  transition: 500ms;
+}
+
+.card-tradicionais:hover h4 {
+  visibility: hidden;
+  transition: 500ms;
+}
+
+.card-tradicionais:hover .ingredientes {
+  display: block;
+}
+
+.tradicionais :hover{
+  background-color: #D45101;
+  transition: 500ms;
+}

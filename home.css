@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Gorga;
+    src: url(Gorga\ Grotesque\ Regular.otf);
+}
+
+body{
+    font-family: 'Gorga', Arial, sans-serif;
+    background-color: #1B1A1A;
+    margin: 0;
+    padding: 0;
+}
+/*cabeçalho*/
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #D45101;
+    height: 60px;
+  }
+  
+  .fas{
+    margin-right: 90px;
+  }
+  
+  .logo-cabeçalho {
+    width: 60px;
+    margin-left: 60px;
+    cursor: pointer;
+  }
+  .conteudo-navbar {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #D45101;
+  }
+
+  .search {
+    color: #151515;
+    background-color: #F07A00;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: 'Gorga', sans-serif;
+    border: none;
+    text-indent: 20px;
+    margin-right: 10px;
+  }
+  
+  .conteudo-navbar:hover {
+    cursor: pointer;
+    color: azure;
+    font-family: 'Gorga', sans-serif;
+  }
+
+::placeholder{
+  color: #151515;
+}
+
+/*Banner*/
+
+.banner {
+  position: relative;
+  height: 350px;
+  background: url(/banner.png) no-repeat center; 
+}
+
+
+.txtbanner {
+  position: absolute;
+  margin-left: 506px;
+  margin-top: 150px;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.banner a{
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 25px 20px;
+  text-decoration: none;
+  color: #EF6E58;
+  background-color: #232323;
+  margin-left: 550px;
+  margin-top: 200px;
+  border-radius: 65px;
+}
+
+.rodapé{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-top: 0.4px solid #D45101;
+}
+.primeiro-rodapé{
+  margin-right: 100px;
+}
+
+.conteúdo-rodapé{
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  text-decoration: none;
+  outline: none;
+  font-size: 15px;
+  margin-left: -40px;
+  font-family: Gorga;
+}
+
+.logo-rodapé{
+  width: 120px;
+  margin-left: 600px;
+}
+
+.fa-regular{
+  color: white;
+  margin-left: 0px;
+}
+
+.titulinho-rodapé{
+  color: #D45101;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+

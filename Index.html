@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação JavaScript</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" 
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+    
+</head>
+<body>
+    <div class="conteúdo">
+        <div class="conteudoesquerda">
+            <h1>Cadastre-se <br> Para ser redirecionado para o site.</h1>
+            <img src="imagem.svg" class="imagem" alt="">
+        </div>
+        <div class="conteudodireita">
+            <div class="card-cadastro">
+                <h1>Cadastrar-se</h1>
+                <div class="conteudo-cadastro">
+                    <label for="usuário">Primeiro Nome</label>
+                    <input id="nome" type="text" name="usuario" placeholder="Defina o nome do usuário">
+                </div>
+                <div class="conteudo-cadastro">
+                    <label for="sobrenome">Segundo nome</label>
+                    <input  id="sobrenome" type="text" name="sobrenome" placeholder="Defina o Sobrenome">
+                </div>
+                <button onclick="Cadastrar()" class="btn-cadastro">Cadastrar-se</button> 
+            </div>      
+            <div class="cardtotal">   
+            <div id="card-evento" class="card evento">
+                <h2>Cadastrado! </h2>
+                <p id="bem-vindo">!</p>
+            <a href="home.html">Clique aqui</a>
+        </div>
+    </div>
+</body>
+</html>

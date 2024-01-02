@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@500&family=Merriweather:wght@700&display=swap');
+
+body{
+    margin: 0;
+    background: #1B1A1A;
+}
+
+.conteúdo{
+    width: 100vw;
+    height: 100vh;
+    background: #1B1A1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudoesquerda{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Merriweather';
+}
+
+.conteudoesquerda >h1{
+    color: #D45101;
+}
+
+.imagem{
+    width: 25vw;
+}
+
+.conteudodireita{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Asap Condensed';
+}
+
+.card-cadastro{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #D45101;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-cadastro >h1{
+    color: #1B1A1A;
+    font-weight: 800;
+    margin: 0;
+}
+
+.conteudo-cadastro{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.conteudo-cadastro >input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #1B1A1A;
+    color: #D45101;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+}
+
+.conteudo-cadastro > label{
+    color: #1B1A1A;
+    margin-bottom: 10px;
+}
+
+.conteudo-cadastro >input::placeholder{
+    color: #1B1A1A;
+}
+
+.btn-cadastro{
+    width: 90%;
+    padding: 16px 20px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 8px;
+    color: #e7d7c7;
+    background: #852517;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #351305;
+}
+
+.card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #EB973B;
+    background-color: #852517;
+
+}
+
+.evento {
+    display: none;
+}
+
+.conteudo-perfil {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Asap Condensed';
+}
+
+.card-perfil {
+    display: flex;
+    flex-wrap:wrap-reverse;
+    width: 50%;
+    max-width: 500px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #1B1A16;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-perfil h1 {
+    color: #E45825;
+    font-weight: 800;
+    margin: 0;
+}
+
+.card-perfil h2{
+    display: inline;
+    margin: 1px;
+}
+
+.nome, .sobrenome{
+    color: #E45825;
+}
+
+.texto-perfil {
+    text-align: center;
+}
+
+.btn-edit {
+    width: 90%;
+    padding: 16px 20px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 8px;
+    color: #FFFFFF;
+    background: #25A652;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #106A23;
+}
+
+.btn-excluir {
+    width: 90%;
+    padding: 16px 20px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 8px;
+    color: #E6D5B9;
+    background: #921f0b;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #351305;
+}
+
+.icon-edit,
+.icon-delete {
+    display: inline-block;
+    margin-right: 5px;
+    transition: transform 0.2s; 
+}
+
+.icon-edit i {
+    color: #25A652;
+}
+
+.icon-delete i {
+    color: #921f0b; 
+}
+
+.btn-edit:hover .icon-edit,
+.btn-excluir:hover .icon-delete {
+    transform: scale(1.2); 
+}
+
+.voltar{
+    text-decoration: none;
+    color: white;
+}
+
+.conteudo-sobre {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Asap Condensed';
+}
+
+.card-sobre {
+    display: flex;
+    flex-wrap:wrap-reverse;
+    width: 50%;
+    max-width: 500px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #E45825;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-sobre h1 {
+    color: #1B1A16;
+    font-weight: 800;
+    margin: 0;
+}
+
+.card-sobre h2{
+    display: inline;
+    margin: 1px;
+}
+
+.texto-sobre {
+    text-align: center;
+}

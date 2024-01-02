@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <script src="https://kit.fontawesome.com/9fa364407c.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" 
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+    <title>Nosso Cardápio</title>
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header class="cabeçalho">    
+        <div class="navbar">
+        <img src="Logo.png" class="logo-cabeçalho" alt="Logo da Nham Nham!"> 
+        <ul><a class="conteudo-navbar" href="home.html">Início</a></ul>
+        <ul><a class="conteudo-navbar" href="menu.html">Cardápio</a></ul>
+        <a id="link-conta" class="conteudo-navbar" href="perfil.html" onclick="redirecionarParaPerfil()">Perfil</a>
+        <ul> <a class="conteudo-navbar" href="sobre.html">Sobre o Projeto</a></ul>
+        
+    </div>
+</header>
+    
+    <section class="menu">
+        <div class="conteúdo-menu">
+            <i class="fa-solid fa-utensils icone-menu"></i>
+            <h1>Confira o nosso menu:</h1>
+       </div>
+
+       <section class="menu-tradicionais">
+        <h1>Tradicionais</h1>
+        <div class="tradicionais">
+            <div class="card-tradicionais">
+            <h3>Clássico</h3>
+            <img src="clássico.png" class="card-imagem" alt=""> <br>
+            <i class="fa-solid fa-clock icone-tempo"></i>
+            <h4 class="tempo">10-15min</h4> <br>
+            <i class="fa-solid fa-wallet preço"></i>
+            <h4 class="tempo">R$ 9,00</h4> <br>  
+            <div class="ingredientes">
+                <p>Ingredientes:</p>
+                <ul>
+                  <li>•Carne</li>
+                  <li>•Queijo</li>
+                  <li>•Tomate</li>
+                  <li>•Alface</li>
+                </ul>
+              </div>
+            </div>              
+
+            <div class="card-tradicionais">
+            <h3>Good Burger</h3>
+            <img src="goodburger.png" class="card-imagem"  alt=""> <br>
+            <i class="fa-solid fa-clock icone-tempo"></i>
+            <h4 class="tempo">10-15min</h4> <br>
+            <i class="fa-solid fa-wallet preço"></i>
+            <h4 class="tempo">R$ 10,50</h4> <br> 
+            <div class="ingredientes">
+                <p>Ingredientes:</p>
+                <ul>
+                    <li>•Carne</li>
+                    <li>•Queijo</li>
+                    <li>•Tomate</li>
+                    <li>•Alface</li>
+                    <li>•Picles</li>
+                    <li>•Molho Secreto</li>
+                </ul>
+              </div>                     
+            </div>
+
+            <div class="card-tradicionais">
+            <h3>A Vaca e o Frango</h3>
+            <img src="vacaefrango.png" class="card-imagem"  alt=""> <br>
+            <i class="fa-solid fa-clock icone-tempo"></i>
+            <h4 class="tempo">10-15min</h4> <br>
+            <i class="fa-solid fa-wallet preço"></i>
+            <h4 class="tempo">R$ 12,00</h4> 
+            <div class="ingredientes">
+                <p>Ingredientes:</p>
+                <ul>
+                  <li>•Carne</li>
+                  <li>•Frango Desfiado</li>
+                  <li>•Ovo</li>
+                  <li>•Tomate</li>
+                  <li>•Alface</li>
+                </ul>
+              </div> 
+            </div>
+
+            <div class="card-tradicionais">
+            <h3>Krusty Burger</h3>
+            <img src="krusty.png" class="card-imagem"  alt=""> <br>
+            <i class="fa-solid fa-clock icone-tempo"></i>
+            <h4 class="tempo">15-20min</h4> <br>
+            <i class="fa-solid fa-wallet preço"></i>
+            <h4 class="tempo">R$ 14,00</h4> <br>     
+            <div class="ingredientes">
+                <p>Ingredientes:</p>
+                <ul>
+                  <li>•Carne</li>
+                  <li>•Cheddar</li>
+                  <li>•Tomate</li>
+                  <li>•Alface</li>
+                  <li>•Picles</li>
+                  <li>•Barbecue</li>
+                  <li>•Anéis de Cebola</li>
+                </ul>
+              </div>                 
+            </div>
+
+            <div class="card-tradicionais">
+            <h3>Honker Burger</h3>
+            <img src="honker.png" class="card-imagem"  alt=""> <br>
+            <i class="fa-solid fa-clock icone-tempo"></i>
+            <h4 class="tempo">20-25min</h4> <br>
+            <i class="fa-solid fa-wallet preço"></i>
+            <h4 class="tempo">R$ 15,50</h4> <br>   
+            <div class="ingredientes">
+                <p>Ingredientes:</p>
+                <ul>
+                   <li>•Pão Brioche</li>
+                   <li>•Carne</li>
+                   <li>•Guacamole</li>
+                   <li>•Bacon de Peru</li>
+                   <li>•Tomate</li>
+                   <li>•Queijo</li>
+                </ul>
+              </div>                   
+            </div>
+
+            <div class="card-tradicionais">
+            <h3>Boingo Burger</h3>
+            <img src="Boingo.png" class="card-imagem"  alt=""> <br>
+            <i class="fa-solid fa-clock icone-tempo"></i>
+            <h4 class="tempo">15-20min</h4> <br>
+            <i class="fa-solid fa-wallet preço"></i>
+            <h4 class="tempo">R$ 16,00</h4> <br>   
+            <div class="ingredientes">
+                <p>Ingredientes:</p>
+                <ul>
+                  <li>•Carne</li>
+                  <li>•Queijo</li>
+                  <li>•Ovo</li>
+                  <li>•Maionese</li>
+                  <li>•Bacon Caramelizado</li>
+                </ul>
+              </div>                   
+            </div>
+
+            <div class="card-tradicionais">
+            <h3>Big Kahuna</h3>
+            <img src="kahuna.png" class="card-imagem"  alt=""> <br>
+            <i class="fa-solid fa-clock icone-tempo"></i>
+            <h4 class="tempo">10-15min</h4> <br>
+            <i class="fa-solid fa-wallet preço"></i>
+            <h4 class="tempo">R$ 17,00</h4> <br>      
+            <div class="ingredientes">
+                <p>Ingredientes:</p>
+                <ul>
+                  <li>•Carne</li>
+                  <li>•Abacaxi Grelhado</li>
+                  <li>•Cebola</li>
+                  <li>•Alface</li>
+                </ul>
+              </div>       
+            </div>
+
+            <div class="card-tradicionais">
+            <h3>Big Belly</h3>
+            <img src="bigbelly.png" class="card-imagem"  alt=""> <br>
+            <i class="fa-solid fa-clock icone-tempo"></i>
+            <h4 class="tempo">20-25min</h4> <br>
+            <i class="fa-solid fa-wallet preço"></i>
+            <h4 class="tempo">R$ 18,00</h4> <br> 
+            <div class="ingredientes">
+                <p>Ingredientes:</p>
+                <ul>
+                  <li>•Pão Brioche</li>                   
+                  <li>•Carne</li>
+                  <li>•Queijo</li>
+                  <li>•Tomate</li>
+                  <li>•Alface</li>
+                  <li>•Bacon</li>
+                  <li>•Guacamole</li>
+                </ul>
+              </div> 
+            </div>
+
+            <div class="card-tradicionais">
+            <h3>Hambúrguer de Siri</h3>
+            <img src="siri.png" class="card-imagem"  alt=""> <br>
+            <i class="fa-solid fa-clock icone-tempo"></i>
+            <h4 class="tempo">15-20min</h4> <br>
+            <i class="fa-solid fa-wallet preço"></i>
+            <h4 class="tempo">R$ 20,00</h4> <br>     
+            <div class="ingredientes">
+                <p>Ingredientes:</p>
+                <ul>
+                  <li>•Carne de Siri</li>
+                  <li>•Queijo</li>
+                  <li>•Tomate</li>
+                  <li>•Alface Americana</li>
+                  <li>•Ovo</li>
+                  <li>•Cebola</li>
+                  <li>•Picles</li>
+                </ul>
+              </div>                  
+            </div>
+
+            <div class="card-tradicionais">
+            <h3>MacGuffin</h3>
+            <img src="macguffin.png" class="card-imagem"  alt=""> <br>
+            <i class="fa-solid fa-clock icone-tempo"></i>
+            <h4 class="tempo">25-35min</h4> <br> 
+            <i class="fa-solid fa-wallet preço"></i>
+            <h4 class="tempo">R$ 28,00</h4> <br> 
+            <div class="ingredientes">
+                <p>Ingredientes:</p>
+                <ul>
+                  <li>•5 Pães</li>
+                  <li>•4 Carnes</li>
+                  <li>•4 Queijos</li>
+                  <li>•Ovo</li>
+                  <li>•Bacon</li>
+                  <li>•Calabresa</li>
+                  <li>•Molho Especial</li>
+                </ul>
+              </div>              
+            </div>
+        </div>
+       </section>
+    </section>
